@@ -1,0 +1,14 @@
+Package: StartStoppDDI
+Type: Package
+Title: START, STOPP and DDI criteria evaluation for potentially inappropriate prescribing
+Version: 1.0.0
+Authors@R: person("Agapios", "Panos", role = c("aut", "cre"), email = "panosagapios@gmail.com")
+Date: 2019-08-05
+Depends: R (>= 3.0.0)
+Imports: readxl (>= 1.1.0), writexl(>= 1.0), easycsv(>= 1.0.8), StartStopp(>= 1.1.0), DDI(>= 1.0.0)
+Remotes: agapiospanos/StartStopp, agapiospanos/DDI
+Maintainer: Agapios Panos <panosagapios@gmail.com>
+Description: A package that evaluates patient data for START (Screening Tool to Alert doctors to Right Treatments), STOPP (Screening Tool of Older People's Potentially Inappropriate Prescriptions) and DDI (Drug to Drug Interaction) criteria and indicates the patients that are fulfill either a START or a STOPP or a DDI criterion.
+Encoding: UTF-8
+License: GPL (>= 2)
+RoxygenNote: 6.1.1
