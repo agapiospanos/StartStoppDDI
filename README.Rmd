@@ -22,7 +22,7 @@ Installation using R package **[devtools](https://cran.r-project.org/package=dev
 
 ```{r, eval=FALSE}
 install.packages("devtools")
-devtools::install_github("agapiospanos/STARTSTOPPDDI")
+devtools::install_github("agapiospanos/StartStoppDDI")
 ```
 
 ## Input data format
@@ -30,6 +30,11 @@ devtools::install_github("agapiospanos/STARTSTOPPDDI")
 I will soon provide an excel file as a template for the input data format.
 
 ## Basic usage examples
+
+First of all you have to load the library
+```{r, eval=FALSE}
+library(StartStoppDDI)
+```
 
 Provided that you have the input data in the format specifed above you can use the package by calling the eval_crit function and using the correct arguments. For example to evaluate the data for the all DDI and START-STOPP criteria you can call the following function. This function will display a popup window to choose a folder that the excel file will be exported. Then another popup window will appear to choose the excel file that contains the patient data.
 

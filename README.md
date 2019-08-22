@@ -25,7 +25,7 @@ Installation using R package
 
 ``` r
 install.packages("devtools")
-devtools::install_github("agapiospanos/STARTSTOPPDDI")
+devtools::install_github("agapiospanos/StartStoppDDI")
 ```
 
 ## Input data format
@@ -34,6 +34,12 @@ I will soon provide an excel file as a template for the input data
 format.
 
 ## Basic usage examples
+
+First of all you have to load the library
+
+``` r
+library(StartStoppDDI)
+```
 
 Provided that you have the input data in the format specifed above you
 can use the package by calling the eval\_crit function and using the
