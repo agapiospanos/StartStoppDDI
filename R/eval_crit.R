@@ -40,7 +40,7 @@ eval_crit <- function(selectedDDI = 'all', selectedSTOPP = 'all', selectedSTART 
 
   ddi <- DDI::eval_crit(selected = selectedDDI, excel_path = excel_path, exclude = excludeDDI, excel_out = F, single_excel = single_excel, export_data_path = export_data_path, suppressNA = suppressNA, excel_sheet = excel_sheet, excel_col_data = excel_col_data, excel_col_pid = excel_col_pid, show_only_meet = show_only_meet, show_only_sum = show_only_sum)
 
-  startstopp <- StartStopp::STARTSTOPPbycategory(excel_path, excludeSTART, excludeSTOPP, excel_out = F, single_excel, export_data_path, suppressNA)
+  startstopp <- StartStopp::STARTSTOPPbycategory(excel_path, selectedSTART, excludeSTART, selectedSTOPP, excludeSTOPP, excel_out = F, single_excel, export_data_path, suppressNA)
 
   output <- list()
 

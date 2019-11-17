@@ -1,3 +1,7 @@
+***StartStoppDDI, version 1.1.0 ***
+
+- fixed bug that selected criteria were ignored. Instead of the selected all criteria were run previously
+
 ***StartStoppDDI, version 1.0.0 ***
 
 - first release for testing
